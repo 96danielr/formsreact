@@ -1,0 +1,198 @@
+.App {
+  
+  
+  padding: 0;
+  margin: 0;
+  display: block;
+  background-image:url(https://fondosmil.com/fondo/18820.jpg);
+  
+  
+
+}
+@media screen and (min-width: 900px){
+  .App {
+    display: flex;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+    margin: 0;
+    
+  
+  }
+  .usersForm{
+    margin: 0;
+      border-radius: 0;
+      height: 100vh;
+      overflow-x: auto;
+      width: 40%;
+  }
+  .user_list{
+    margin: 0;
+    height: 100vh;
+    overflow-x: auto;
+    padding: 30px;
+    width: 60%;
+    background-image:url(https://fondosmil.com/fondo/18820.jpg);
+  
+  }
+  
+
+
+}
+
+.usersForm {
+  background: #fff;
+  border-radius: 0 0 30px 30px;
+  padding: 15px 0 35px;
+  
+  
+}
+
+
+
+.usersForm form{
+
+  padding: 30px;
+  margin: 0 auto;
+
+}
+
+.usersForm h2{
+  font-size: 26px; 
+  margin-bottom: 10px;
+  
+}
+
+.input_container{
+
+  align-items: center;
+  display: flex;
+  padding: 10px 0;
+  width: 100%;
+}
+.usersForm input{
+
+  background: rgba(0,0,0,.03);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    padding: 10px;
+    width: 90%;
+
+
+}
+
+.name_inputs input{
+  width: 40%;
+
+  
+
+}
+
+.usersForm .input label {
+  padding-right: 10px;
+  text-align: center;
+  width: 10%;
+}
+
+.input_container label{
+  padding-right: 10px;
+  text-align: center;
+  width: 10%;
+
+
+}
+.button_container{
+
+  display: flex;
+  width: 100%;
+}
+
+.button_container button{
+  background: #D65DB1;
+  border: none;
+  border-radius: 10px;
+  color: #FBEAFF;
+  font-size: 20px;
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+
+
+}
+
+.user_list{
+  margin: 0;
+  height: 100vh;
+ 
+  padding: 20px;
+  background-image:url(https://fondosmil.com/fondo/18820.jpg);
+  
+  
+
+
+
+}
+.user_list_container{
+  margin: 0px 10px;
+  padding: 0px 40px 100px 0px;
+ 
+  
+
+}
+
+li {
+  background: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin: 30px 0;
+    padding: 30px 20px;
+    width: 100%;
+    
+   
+
+}
+.user_info{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    box-sizing: border-box;
+
+
+}
+.name{
+
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.email{
+
+  color: rgba(0,0,0,.6);
+    margin-bottom: 10px;
+}
+
+.user_options{
+
+  align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+.user_options button{
+  border: none;
+  font-size: 21px;
+  cursor: pointer;
+  background-color: #fff;
+
+
+}
+
+.fa-trash{
+  color: rgb(230,83,80)
+}
+
+
+
